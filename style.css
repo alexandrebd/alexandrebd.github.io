@@ -1,0 +1,51 @@
+body {
+	background-image: url("https://toundravoyages.com/wp-content/uploads/2016/08/Auberge-de-Montagne-des-Chic-Chocs-blog-Toundra-boucle.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 5em;
+	font-weight: bold;
+	padding-top: 10px;
+	transition: 500ms;
+}
+
+h1:hover {
+	transform: scale(1.2)
+}
+
+h4 {
+	font-family: 'Cinzel', serif;
+}
+
+button {
+	margin-bottom: 20%;
+}
+
+.btn {
+	border-radius: 300px;
+	font-family: 'Sulphur Point', sans-serif;
+}
+
+p {
+	font-size: 115%;
+	font-family: 'Sulphur Point', sans-serif;
+	background-color: rgba(50, 162, 58, 0.7);
+}
+
+.container {
+	min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
+  	min-height: 100vh; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+
+}
+
+.bottom
